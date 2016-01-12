@@ -2,15 +2,193 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/gradient_background_media"
     tools:context="info.androidhive.materialtabs.fragments.OneFragment">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <GridLayout
+        android:id="@+id/g1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/one"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        android:layout_centerInParent="true"/>
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/a"
+            style="@style/ButtonStyle.RaisedEmpty"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:text="A"
+            />
+
+
+        <Button
+            android:id="@+id/b"
+            style="@style/ButtonStyle.RaisedEmpty"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:text="B"
+            />
+        <Button
+            android:id="@+id/c"
+            style="@style/ButtonStyle.RaisedEmpty"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:text="C"
+            />
+
+        <Button
+            android:id="@+id/d"
+            style="@style/ButtonStyle.RaisedEmpty"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:text="D"
+            />
+
+
+
+    </GridLayout>
+    <GridLayout
+        android:id="@+id/g2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/g1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/e"
+            style="@style/ButtonStyle.RaisedEmpty"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:text="E"
+            />
+
+
+        <Button
+            android:id="@+id/f"
+            style="@style/ButtonStyle.RaisedEmpty"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:text="F"
+            />
+        <Button
+            android:id="@+id/g"
+            style="@style/ButtonStyle.RaisedEmpty"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:text="G"
+            />
+
+        <Button
+            android:id="@+id/h"
+            style="@style/ButtonStyle.RaisedEmpty"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:text="H"
+            />
+
+
+
+
+
+    </GridLayout>
+    <GridLayout
+        android:id="@+id/g3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/g2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/i"
+            style="@style/ButtonStyle.RaisedEmpty"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:text="I"
+            />
+
+
+        <Button
+            android:id="@+id/j"
+            style="@style/ButtonStyle.RaisedEmpty"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:text="J"
+            />
+
+
+        <Button
+            android:id="@+id/k"
+            style="@style/ButtonStyle.RaisedEmpty"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:text="K"
+            />
+        <Button
+            android:id="@+id/l"
+            style="@style/ButtonStyle.RaisedEmpty"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:text="L"
+            />
+
+        <Button
+            android:id="@+id/m"
+            style="@style/ButtonStyle.RaisedEmpty"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:text="M"
+            />
+
+
+
+
+
+
+    </GridLayout>
+
 
 </RelativeLayout>
