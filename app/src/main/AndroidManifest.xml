@@ -21,6 +21,7 @@
         <activity android:name=".WelActivity"></activity>
         <activity android:name=".SingleActivity"></activity>
         <activity android:name=".search.SearchBarMediaActivity"></activity>
+        <activity android:name=".Tab.SimpleTabsActivity"></activity>
     </application>
 
 </manifest>

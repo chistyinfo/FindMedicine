@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import megaminds.findmedicine.search.SearchBarMediaActivity;
+import megaminds.findmedicine.Tab.SimpleTabsActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(MainActivity.this, SearchBarMediaActivity.class);
+                Intent intent = new Intent(MainActivity.this, SimpleTabsActivity.class);
                 MainActivity.this.startActivity(intent);
 
 
