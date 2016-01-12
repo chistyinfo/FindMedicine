@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_media"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/gradient_background_media"
+        android:orientation="vertical" >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <megaminds.findmedicine.font.RobotoTextView
+                    android:id="@+id/activity_search_bar_media_filters"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/transparent_button_selector"
+                    android:text="Search by"
+                    android:textColor="@android:color/white"
+                    android:textSize="34sp"
+                    app:typeface="robotoThin" />
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0" >
+
+                    <megaminds.findmedicine.font.MaterialDesignIconsTextView
+                        android:id="@+id/activity_search_bar_media_arrow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:layout_weight="0"
+                        android:padding="8dp"
+                        android:text="@string/material_icon_chevron_down"
+                        android:textColor="@android:color/white"
+                        android:textSize="32sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/activity_search_bar_media_filters_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal" >
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Medicine Name"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Medicine Group"/>
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Company"/>
+
+
+
+                    </RadioGroup>
+
+
+
+
+
+                    <!--</LinearLayout>-->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/search_bar_media_background"
+                    android:orientation="horizontal" >
+
+
+
+                      dash;&gt;-->
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/search_bar_media_background"
+                    android:orientation="horizontal" >
+
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:gravity="center_vertical" >-->
+
+                        <!--<megaminds.demo.font.MaterialDesignIconsTextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginLeft="8dp"-->
+                            <!--android:layout_marginRight="8dp"-->
+                            <!--android:layout_weight="0"-->
+                            <!--android:padding="8dp"-->
+                            <!--android:text="@string/material_icon_human"-->
+                            <!--android:textColor="@color/material_red_500"-->
+                            <!--android:textSize="26dp" />-->
+
+                        <!--<megaminds.demo.font.RobotoTextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_weight="0"-->
+                            <!--android:background="@drawable/transparent_button_selector"-->
+                            <!--android:maxLines="1"-->
+                            <!--android:text="Company Name"-->
+                            <!--android:textSize="20sp"-->
+                            <!--android:textColor="@android:color/white"-->
+                            <!--app:typeface="robotoThin" />-->
+                    <!--</LinearLayout>-->
+
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight="0"-->
+                        <!--android:gravity="center_vertical" >-->
+
+                        <!--&lt;!&ndash;<megaminds.demo.font.MaterialDesignIconsTextView&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:id="@+id/activity_search_bar_media_artist"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_marginLeft="8dp"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_marginRight="8dp"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_weight="0"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:padding="8dp"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:text="@string/material_icon_check_empty"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:textColor="@color/material_red_500"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:textSize="26dp" />&ndash;&gt;-->
+
+
+
+                            <!--<RadioButton-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content" />-->
+
+
+                    <!--</LinearLayout>-->
+                </LinearLayout>
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="4dp"-->
+                    <!--android:layout_marginTop="4dp"-->
+                    <!--android:background="@drawable/search_bar_media_background"-->
+                    <!--android:orientation="horizontal" >-->
+
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:gravity="center_vertical" >-->
+
+                        <!--<megaminds.demo.font.MaterialDesignIconsTextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginLeft="8dp"-->
+                            <!--android:layout_marginRight="8dp"-->
+                            <!--android:layout_weight="0"-->
+                            <!--android:padding="8dp"-->
+                            <!--android:text="@string/material_icon_headline"-->
+                            <!--android:textColor="@color/material_red_500"-->
+                            <!--android:textSize="26dp" />-->
+
+                        <!--<megaminds.demo.font.RobotoTextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_weight="0"-->
+                            <!--android:background="@drawable/transparent_button_selector"-->
+                            <!--android:maxLines="1"-->
+                            <!--android:text="Genre"-->
+                            <!--android:textSize="20sp"-->
+                            <!--android:textColor="@android:color/white"-->
+                            <!--app:typeface="robotoThin" />-->
+                    <!--</LinearLayout>-->
+
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight="0"-->
+                        <!--android:gravity="center_vertical" >-->
+
+                        <!--<megaminds.demo.font.MaterialDesignIconsTextView-->
+                            <!--android:id="@+id/activity_search_bar_media_genre"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginLeft="8dp"-->
+                            <!--android:layout_marginRight="8dp"-->
+                            <!--android:layout_weight="0"-->
+                            <!--android:padding="8dp"-->
+                            <!--android:text="@string/material_icon_check_empty"-->
+                            <!--android:textColor="@color/material_red_500"-->
+                            <!--android:textSize="26dp" />-->
+                    <!--</LinearLayout>-->
+                <!--</LinearLayout>-->
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/search_bar_media_background"
+                android:gravity="center_vertical" >
+
+                <megaminds.findmedicine.font.FontelloTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="@string/fontello_search"
+                    android:textColor="@color/material_red_500"
+                    android:textSize="18dp"
+                    tools:ignore="SpUsage" />
+
+                <EditText
+                    android:id="@+id/search_field"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:inputType="text"
+                    android:textColor="@android:color/white" />
+
+
+
+                <TextView
+                    android:id="@+id/search_x"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="GO"
+                    android:textColor="@color/material_green_500"
+                    android:textSize="18dp"
+                    tools:ignore="SpUsage" />
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/search_x"-->
+                    <!--android:layout_width="35dp"-->
+                    <!--android:layout_height="35dp"-->
+                    <!--android:background="@drawable/go"-->
+                    <!--android:paddingLeft="16dp"-->
+                    <!--android:paddingRight="16dp"-->
+                    <!--/>-->
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_marginBottom="16dp" >
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        <!--android:layout_height="?attr/actionBarSize"-->
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            app:tabMode="fixed"
+            app:tabGravity="fill"/>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+</LinearLayout>
