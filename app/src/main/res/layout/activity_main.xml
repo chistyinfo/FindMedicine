@@ -8,6 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/gradient_background_media"
     tools:context="megaminds.findmedicine.MainActivity">
 
 
@@ -45,7 +46,8 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_margin="0dp"
-            android:background="@drawable/buttonback"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
             android:text="@string/about"
             />
 
@@ -69,8 +71,9 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_margin="0dp"
-            android:background="@drawable/buttonback"
+            android:background="@color/colorPrimary"
             android:text="@string/serch"
+            android:textColor="@color/white"
             />
 
     </megaminds.findmedicine.buttoneffects.MaterialRippleLayout>
